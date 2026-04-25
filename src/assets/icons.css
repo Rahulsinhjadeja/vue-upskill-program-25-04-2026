@@ -1,0 +1,24 @@
+/* PodStream — Custom icon styles
+   Bootstrap provides: .badge, .btn, .nav, .card, etc.
+   Font Awesome provides: all icon classes (fa-solid fa-bell, etc.)
+   This file only contains PodStream-specific icon overrides */
+
+/* Bell icon for subscriptions — uses Font Awesome bell glyph */
+/* .icon-bell {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 36px; height: 36px; border-radius: 50%;
+  border: 2px solid var(--color-border); background: transparent;
+  cursor: pointer; font-size: 1rem; transition: all 0.2s ease;
+  color: var(--color-text-light);
+}
+.icon-bell::before { content: '\f0f3'; font-family: 'Font Awesome 5 Free'; font-weight: 900; }
+.icon-bell:hover { border-color: var(--color-primary); color: var(--color-primary); background-color: rgba(108, 60, 224, 0.05); }
+.icon-bell.active { border-color: var(--color-primary); background-color: var(--color-primary); color: white; } */
+
+/* Category-specific badge colors (extend Bootstrap .badge) */
+.badge-technology { background: #ede9fe !important; color: #6c3ce0 !important; }
+.badge-comedy { background: #fef3c7 !important; color: #d97706 !important; }
+.badge-news { background: #dbeafe !important; color: #2563eb !important; }
+.badge-health { background: #d1fae5 !important; color: #059669 !important; }
+.badge-business { background: #fce7f3 !important; color: #db2777 !important; }
+.badge-education { background: #e0e7ff !important; color: #4338ca !important; }
